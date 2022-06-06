@@ -34,7 +34,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #homeyou-nav-header {
@@ -88,6 +88,7 @@ main {
 
 .section-content {
     display: flex;
+    justify-content: space-around;
     gap: 68px;
     max-width: 125em;
 }
@@ -130,6 +131,44 @@ main {
     color: var(--dark-gray);
 }
 
+.white-bg {
+    background-color: white;
+}
+
 #section1-image {
     width: 50%;
+}
+
+#section2 {
+    padding: 12.9em 34.6em 8.2em;
+}
+
+#gray-underlay {
+    background-color: var(--dark-gray);
+    padding: 2em 3em;
+}
+
+#gray-underlay h3 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white
+}
+
+#gray-underlay p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 25.6px;
+    color: white;
+}
+
+#section2-text {
+    margin-left: 106px;
+}
+
+#section2-text a {
+    margin-top: 24px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--dark-gray)
 }
