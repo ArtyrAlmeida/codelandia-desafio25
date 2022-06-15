@@ -232,3 +232,38 @@ main {
     display: flex;
     align-items: center;
 }
+
+/* Footer */
+footer {
+    padding: 9em 34.6em;
+}
+
+.footer-collum {
+    display: flex;
+    flex-direction: column;
+    margin-right: 116px;
+}
+
+.footer-collum h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--dark-gray);
+    margin-bottom: 27px;
+}
+
+.footer-collum a {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--dark-gray);
+    margin-bottom: 16px;
+}
+
+#footer-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+#footer-content img {
+    margin-right: 70px;
+}
